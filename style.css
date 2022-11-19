@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-color: #1b1b1b;
+}
+#M {
+  color: #8cb4ff;
+  font-family: "Courgette", cursive;
+  font-size: 58px;
+}
+#dash {
+  color: #8cb4ff;
+}
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 48;
+  transform: scaleX(-1);
+}
+h1 {
+  font-size: 48px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 320px;
+}
+.grid-div {
+  display: flex;
+}
+.item {
+  width: 198px;
+  height: 195px;
+  background-color: #8cb4ff;
+  margin: 3px;
+  padding: 32px 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.item .num {
+  color: #1b1b1b;
+  font-size: 48px;
+}
+.item p {
+  color: #1b1b1b;
+}
+div {
+  margin: 20px 0;
+}
+p {
+  line-height: 40px;
+}
+blockquote {
+  padding: 0 50px;
+  line-height: 40px;
+  font-style: italic;
+  margin: 80px 0;
+}
+h3 {
+  margin: 20px 0;
+}
+h4 {
+  color: #1b1b1b;
+  font-weight: 800;
+}
+.bq {
+  border: 1px;
+  background-color: #8cb4ff;
+  color: #1b1b1b;
+  padding: 32px;
+  border-radius: 8px;
+}
+.q {
+  color: #1b1b1b;
+}
